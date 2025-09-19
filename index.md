@@ -10,9 +10,9 @@ title: ""
 
 My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything.
 
-**News: I'm taking a small gap-year in tech company in 2025 for practical training on research and engineering around compiler technology and formal methods. I'll take Applied Scientist Internship at [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) at Amazon Web Services (AWS) starting Jan. 2025, lead by Dr. [Daniel Kröning](https://www.kroening.com/), working on a research project about formal correctness of ML Compilers .**
+I also took a small gap-year in tech company in 2025. In spring, I worked as an applied scientist intern at [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**, working on a formal verification for ML Compilers ([NKI](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. In the summer, I worked as a compiler engineer at PL & R team of Meta Platforms, Inc., contributing to the great open source **[Triton](https://github.com/triton-lang/triton)** tensor language/compiler (built on [LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/) compiler framework).
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
 
 I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.</u>
 
@@ -29,29 +29,29 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 
 **Formal Verification & Certified Compilation (Primary & Thesis Topic)** 
 
-- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework through both testing and formal proofs.
+- **[Ongoing]** **Certified Compilation for Tensor Compiler**
+
+- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm to reduce both compile-time complexity and verification burden.
 
-- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.  
-
-- **[Intern@Amazon] Correctness for ML Compilers** 
+- **[Intern@Amazon] Lean for ML Compilers** 
 
 - **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 
-- **Q:** How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
+- **Q:** How to implement inter-procedural optimizations in a certified compiler? How far is it from current general framework? 
 
 - **Q:** How can undefined behavior (UB) be exploit in a certified compiler [like LLVM did](https://dl.acm.org/doi/10.1145/3062341.3062343)?
 
 - **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) in CompCert is correct w.r.t. their language design?
 
-  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) is all we need (existing work can be found). The assembly semantics is already proved to simulate the C semantics.
+  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) is all we need (existing work by Su can be found). The assembly semantics is already proved to simulate the C semantics.
 
 - **Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario, but only find false cases. Should we desire both advantages in one method?
 
 **Parallelism & Concurrency** (secondary, trying to find good methods for important problems)
 
-- **[Reading] Data-race problems**: Investigating possible new approaches on both static prediction and dynamic detection of data-races.
+- **[Reading] Data-race problems**
 - **[Reading] GPU Programming, Cuda, OpenMP, MLIR, etc.**
 - **[Reading] Program Verification with Concurrency**: concurrent separation logic, etc.
 
