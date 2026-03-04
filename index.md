@@ -8,68 +8,61 @@ title: ""
 
 # **Biography** 
 
-My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything.
+My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal verification (software correctness)**, **compilers** and their applications for anything.
 
-I also took a small gap-year in tech company in 2025. In spring, I worked as an applied scientist intern at [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**, working on a formal verification for ML Compilers ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. In the summer, I worked as a compiler engineer intern at PL & R team of **Meta Platforms, Inc.**, contributing to the great open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging support in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*.
+I took several gaps for industrial interns during my PhD study. I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**s'  [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & Annapurna Labs, working on a formal verification of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
+I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging support in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*.
 
-I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.</u>
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** for Bachelor Thesis. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research.
 
-Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
-
-**Contact Information:**
-
-- **Email:**  (fun x y z =>x dot y dot z @gmail.com) cs ziteng yang
-- [LinkedIn](https://www.linkedin.com/in/ziteng-yang-a149181b5/), [Twitter](https://twitter.com/_ziteng_yang_)
+Here is my **[CV](./cv/CV_ZitengYang.pdf)**, [**LinkedIn**](https://www.linkedin.com/in/ziteng-yang-a149181b5/), and [**Twitter**](https://twitter.com/_ziteng_yang_).
 
 # **Research**
 
-My current major focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. See the detailed problems including other areas I'm investigating or interested below:
+My current focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. Whether for career or just for hobbies, I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below and I will share knowledge/ideas I have for free.</u>
+
+See the detailed open problems including other areas I'm investigating or interested below:
 
 **Formal Verification & Certified Compilation (Primary & Thesis Topic)** 
 
-- **[Ongoing]** **Certified Compilation for Tensor Compiler**
+- **[GPU Compiler]** **[Ongoing]** **Compiler Correctness for Tensor Language**
 
-- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
+- **[CPU Compiler]** **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
 
-- **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm to reduce both compile-time complexity and verification burden.
+- **[Intern@Amazon] Verification for Realistic Tensor Compilers** 
 
-- **[Intern@Amazon] Lean for ML Compilers** 
+- **Q:** The compiler correctness is defined as *"for any program, if the compiler <u>accept</u> it, the generated program always behaves the same (when source program behaves normal) or better (when source program will trigger error)"*. However, how much can we reason about when the compiler *<u>reject</u>* a program? Such query is non-trivial, because a compilation pass that reject all program can be proved correct under CompCert' s correctness setting.
+
+- **Q:** How can undefined behavior (UB) be exploit in a correct-by-construction compiler (e.g. CompCert) like [what LLVM did](https://dl.acm.org/doi/10.1145/3062341.3062343)?
 
 - **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 
-- **Q:** How to implement inter-procedural optimizations in a certified compiler? How far is it from current general framework? 
+- **Q:** How to implement <u>inter-procedural optimizations</u> in a certified compiler? How far will it be from current general framework? 
 
-- **Q:** How can undefined behavior (UB) be exploit in a certified compiler [like LLVM did](https://dl.acm.org/doi/10.1145/3062341.3062343)?
+- **Q:** How do we ensure *what we proved correct is the correctness we want*, i.e. that the formal semantics specification of C (source language) and assembly/machine language (target language) in CompCert is exactly correct w.r.t. their language design?
 
-- **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) in CompCert is correct w.r.t. their language design?
+  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) is all we need ([existing work](https://dl.acm.org/doi/10.1145/2594291.2594334) can be found). The assembly semantics is already proved to simulate the C semantics.
 
-  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) is all we need (existing work by Su can be found). The assembly semantics is already proved to simulate the C semantics.
+- **General Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario, but only find false cases. Should we desire both advantages in one method?
 
-- **Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario, but only find false cases. Should we desire both advantages in one method?
+**Parallelism & Concurrency** (secondary, keeping track of latest progress)
 
-**Parallelism & Concurrency** (secondary, trying to find good methods for important problems)
+- **GPU Programming, CUDA, OpenMP, MLIR, etc.**
+- **Data-race problems**
+- **Program Verification with Concurrency**: concurrent separation logic, etc.
 
-- **[Reading] Data-race problems**
-- **[Reading] GPU Programming, Cuda, OpenMP, MLIR, etc.**
-- **[Reading] Program Verification with Concurrency**: concurrent separation logic, etc.
+**Theory** (only in spare time, only for pleasure)
 
-**General Theory** (only in spare time, only for pleasure)
-
-- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? Can we conclude any non-trivial new theorems based on such model?
-
-
+- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? Can we conclude any non-trivial new theorems based on such model (computability with human provided information)?
 
 **Undergraduate Research at SJTU**
 
 - **Compiler Correctness for Annotation Verifier** [Corresponding author is [Dr. Qinxiang Cao](https://dblp.org/pid/141/1017.html)]: 
   
-  I worked on investigating correctness theory of a new idea: compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic.
+  I investigated the formal theory of a new idea: compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework using proof assistant. After I graduated, this expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework. Expecting some publication(s) later.
   
-  After I graduated, this expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework. Expecting some publication(s) later.
-  
-- **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event of an automata.
+- **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Dr. Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event of an automata.
 
 # **Publications**
 
@@ -87,38 +80,26 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 
 # **Teaching Experience**
 
-- **Teaching Assistant** for *CS6390@GT: Programming Languages*, 2023 spring, taught by [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/)
+- **Teaching Assistant** for *CS6390@GT: Programming Languages*, 2023 spring, by [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/)
   - The foundational principles of programming languages
-
-- **Teaching Assistant** for *CS4510@GT: Automata and Complexity*, 2022 fall, taught by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
+- **Teaching Assistant** for *CS4510@GT: Automata and Complexity*, 2022 fall, by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
   - Intro to Compatibility: regular language and DFA/NFA, context-free language and PDA, Turning Machine, P/NP/co-NP., L/NL, co-NL 
-- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics (IEEE/AI Honor Class)*, 2020 fall, taught by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
+- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics (IEEE/AI Honor Class)*, 2020 fall, by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
   - First-order Logic (proof, semantics and soundness), Set Theory as foundation of Mathematics
-
-- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, taught by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-  - Logic and deduction, Graph Theory, Set Theory
-
-# **Honors and Scholarships**
-
-**During PhD Program**
-
-- **Conference Travel Grant** by scholarship of PLMW@PLDI’22, San Diego, Jun. 2022
-
-**During Undergraduate Time**
-
-- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (**10,000 CNY**; 10 winners and 10 finalists among university each year) , Oct. 2020
-  
-  **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
-
-- **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
-  
-  **上海交通大学校优奖学金, C等 (人民币伍佰元)**
+- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
+  - Deductive Logic, Graph Theory, Set Theory
 
 
 
 # **Misc**
 
-- My hometown is [Chongqing](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the [Night City](https://cyberpunk.fandom.com/wiki/Night_City) of China. Do pay a visit.
+- My hometown is [Chongqing](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the Night City of China, a city built on mountains. Do pay a visit.
+
 - I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
-- I love tennis. (But it hurt my bone...)
+
+- I love tennis since high school, with skills around NTRP 3.5-4.0. 
+
+- I sometimes play League of Legend (a MOBA Esport),  while only ranking Platinum : (
+
+  
 
