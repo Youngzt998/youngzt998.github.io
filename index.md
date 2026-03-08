@@ -10,9 +10,9 @@ title: ""
 
 My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal verification (software correctness)**, **compilers** and their applications for anything.
 
-I took several gaps for industrial interns during my PhD study. I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**s'  [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & Annapurna Labs, working on a formal verification of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
+I took several gaps for industrial interns during my PhD study. I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**s' Annapurna Labs & [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
 
-I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging support in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*.
+I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging supports in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** for Bachelor Thesis. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research.
 
@@ -97,9 +97,9 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
 
-- I love tennis since high school, with skills around NTRP 3.5-4.0. 
+- I love tennis since high school, with skills uniformly distributed in NTRP 3.0-4.0.
 
-- I sometimes play League of Legend (a MOBA Esport),  while only ranking Platinum : (
+- I can play League of Legend (a MOBA Esport),  while only ranking Platinum : (
 
   
 
