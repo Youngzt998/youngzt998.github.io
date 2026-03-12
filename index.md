@@ -93,13 +93,19 @@ See the detailed open problems including other areas I'm investigating or intere
 
 # **Misc**
 
+- My Erdős Number is 4: [me](https://dl.acm.org/doi/10.1145/3689739) -> [Vivek Sarkar](https://ieeexplore.ieee.org/document/842294) -> [Nimrod Megiddo](https://dl.acm.org/doi/abs/10.1145/174652.174661) -> [Noga Alon](https://onlinelibrary.wiley.com/doi/10.1002/jgt.10032) -> Paul Erdős
+
 - My hometown is [Chongqing](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the Night City of China, a city built on mountains. Do pay a visit.
 
-- I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
+- I'm a **cat** person. Here's [my cat](https://youngzt998.github.io/mycat/).
 
-- I love tennis since high school, with skills uniformly distributed in NTRP 3.0-4.0.
+- I'm **tennis** lover since high school, skills ~ U(3, 4.5) by NTRP
+
+  - also badminton, confident to say pretty good
 
 - I can play League of Legend (a MOBA Esport),  while only ranking Platinum : (
+
+  
 
   
 
