@@ -105,6 +105,8 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - I can play League of Legend (a MOBA Esport),  while only ranking Platinum : (
 
+- Part-time INTP
+
   
 
   
