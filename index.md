@@ -10,11 +10,11 @@ title: ""
 
 My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal verification (software correctness)**, **compilers** and their applications for anything.
 
-I took several gaps for industrial interns during my PhD study. I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) at **Amazon Web Services (AWS)**s' Annapurna Labs & [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
+I took several gaps for industrial interns during my PhD study. I worked with the research team advised by Dr. [**Daniel Kröning**](https://www.kroening.com/) and Dr. [**Sean McLaughlin**](https://www.linkedin.com/in/mclaughlins/) at **Amazon Web Services (AWS)**' [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & [Annapurna Labs](https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
 
-I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging supports in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*.
+I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging supports in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*. Thanks to the mentorship from the excellent compiler engineer [**Puyan Lotfi**](https://github.com/plotfi).
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** for Bachelor Thesis. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** for Bachelor Thesis and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** . Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research and achieved my first publication.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**, [**LinkedIn**](https://www.linkedin.com/in/ziteng-yang-a149181b5/), and [**Twitter**](https://twitter.com/_ziteng_yang_).
 
@@ -28,7 +28,7 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - **[GPU Compiler]** **[Ongoing]** **Compiler Correctness for Tensor Language**
 
-- **[CPU Compiler]** **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
+- **[CPU Compiler]** **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
 
 - **[Intern@Amazon] Verification for Realistic Tensor Compilers** 
 
@@ -95,7 +95,7 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - My Erdős Number is 4: [me](https://dl.acm.org/doi/10.1145/3689739) -> [Vivek Sarkar](https://ieeexplore.ieee.org/document/842294) -> [Nimrod Megiddo](https://dl.acm.org/doi/abs/10.1145/174652.174661) -> [Noga Alon](https://onlinelibrary.wiley.com/doi/10.1002/jgt.10032) -> Paul Erdős
 
-- My hometown is [Chongqing](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the Night City of China, a city built on mountains. Do pay a visit.
+- My hometown is [**Chongqing**](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the Night City of China, a city built on mountains. Do pay a visit.
 
 - I'm a **cat** person. Here's [my cat](https://youngzt998.github.io/mycat/).
 
