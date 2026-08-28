@@ -10,9 +10,11 @@ title: ""
 
 My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal verification (software correctness)**, **compilers** and their applications for anything.
 
-I took several gaps for industrial interns during my PhD study. I worked with the research team advised by Dr. [**Daniel Kröning**](https://www.kroening.com/) and Dr. [**Sean McLaughlin**](https://www.linkedin.com/in/mclaughlins/) at **Amazon Web Services (AWS)**' [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & [Annapurna Labs](https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
+I also took totally 1 year industrial interns during my PhD study: 
 
-I also worked with Pytorch & Triton development team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** (built on **[LLVM](https://llvm.org/)/[MLIR](https://mlir.llvm.org/)** compiler framework) and provided new debugging supports in connecting top *[Python AST](https://github.com/python/cpython/blob/3.13/Lib/ast.py)* and bottom *[CUDA PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/)*. Thanks to the mentorship from the excellent compiler engineer [**Puyan Lotfi**](https://github.com/plotfi).
+- I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) and Dr. [**Sean McLaughlin**](https://www.linkedin.com/in/mclaughlins/) at **Amazon Web Services (AWS)**' [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & [Annapurna Labs](https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
+
+- I worked with Pytorch & Triton compiler team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** and provided both engineering supports on new debugging feature and research supports towards numerical correctness aware compiler performance. Thanks to the mentorship from excellent staff engineers [**Puyan Lotfi**](https://github.com/plotfi) (2025) and [**Nicholas Riasanovsky**](https://www.linkedin.com/in/njriasanovsky/) (2026).
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** for Bachelor Thesis and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** . Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research and achieved my first publication.
 
@@ -20,7 +22,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**, [**LinkedIn**](https://www.linkedin
 
 # **Research**
 
-My current focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. Whether for career or just for hobbies, I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below and I will share knowledge/ideas I have for free.</u>
+My current focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. Whether for career or just for hobbies, I'm always open to general research collaboration.
 
 See the detailed open problems including other areas I'm investigating or interested below:
 
@@ -68,6 +70,10 @@ See the detailed open problems including other areas I'm investigating or intere
 
 <u>Program Verification:</u>
 
+- Something incoming about GPU kernel numerical correctness!
+
+- Something incoming about GPU compiler verification!
+
 - **Ziteng Yang**, Jun Shirako, and Vivek Sarkar. 2024. Fully Verified Instruction Scheduling. Proc. ACM Program. Lang. 8, **OOPSLA**2, Article 299 (October 2024), 26 pages.
 
   [ [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopsla24-final.pdf) l [Slide](./papers/oopsla24/oopsla24-slides.pdf) ]
@@ -99,11 +105,11 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - I'm a **cat** person. Here's [my cat](https://youngzt998.github.io/mycat/).
 
-- I'm **tennis** lover since high school, skills ~ U(3, 4.5) by NTRP
+- I'm **tennis** lover since high school, skills ~ 3.5-4.0 by NTRP
 
   - also badminton, confident to say pretty good
 
-- I can play League of Legend (a MOBA Esport),  while only ranking Platinum : (
+- I can play League of Legend (a MOBA E-sport),  but only ranking Platinum : ( Galio main! : ) 
 
 - Part-time INTP
 
