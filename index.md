@@ -105,11 +105,11 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - I'm a **cat** person. Here's [my cat](https://youngzt998.github.io/mycat/).
 
-- I'm **tennis** lover since high school, skills ~ 3.5-4.0 by NTRP
+- I'm **tennis** lover since high school, skills ~ 3.5+ by NTRP
 
   - also badminton, confident to say pretty good
 
-- I can play League of Legend (a MOBA E-sport),  but only ranking Platinum : ( Galio main! : ) 
+- I can play League of Legend (a MOBA E-sport),  but only ranking Platinum+   : ( Galio main! : ) 
 
 - Part-time INTP
 
