@@ -68,9 +68,11 @@ See the detailed open problems including other areas I'm investigating or intere
 
 # **Publications**
 
-<u>Program Verification:</u>
+<u>Program / Compiler Correctness:</u>
 
-- Something incoming about GPU kernel numerical correctness!
+- **Ziteng Yang**, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar. 2026 Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification 
+
+  (under review)
 
 - Something incoming about GPU compiler verification!
 
