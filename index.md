@@ -8,13 +8,13 @@ title: ""
 
 # **Biography** 
 
-My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal verification (software correctness)**, **compilers** and their applications for anything.
+My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research areas are **compilers** and **formal verification (software correctness)**.
 
-I also took totally 1 year industrial interns during my PhD study: 
+I also completed a total of one year of industry internships during my PhD: 
 
-- I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) and Dr. [**Sean McLaughlin**](https://www.linkedin.com/in/mclaughlins/) at **Amazon Web Services (AWS)**' [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & [Annapurna Labs](https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips), working on a formal verification problem of a realistic ML Compiler ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/)) using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
+- I worked with the research team lead by Dr. [**Daniel Kröning**](https://www.kroening.com/) and Dr. [**Sean McLaughlin**](https://www.linkedin.com/in/mclaughlins/) at **Amazon Web Services (AWS)**' [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) & [Annapurna Labs](https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips), working on compiler of realistic compiler for AI Accelerator ([**AWS Neuron**](https://aws.amazon.com/ai/machine-learning/neuron/) & Trainium backend) and their verification using ***[Lean 4](https://github.com/leanprover/lean4) proof assistant***. 
 
-- I worked with Pytorch & Triton compiler team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** and provided both engineering supports on new debugging feature and research supports towards numerical correctness aware compiler performance. Thanks to the mentorship from excellent staff engineers [**Puyan Lotfi**](https://github.com/plotfi) (2025) and [**Nicholas Riasanovsky**](https://www.linkedin.com/in/njriasanovsky/) (2026).
+- I worked with Pytorch & Triton compiler team at **Meta Platforms, Inc.**, contributing to the open source **[Triton](https://github.com/triton-lang/triton)** **tensor language/compiler** and provided both engineering supports on debugging feature and research supports towards numerical correctness aware compiler performance. I'm fortunate to be mentored by excellent staff engineers [**Puyan Lotfi**](https://github.com/plotfi) (2025) and [**Nicholas Riasanovsky**](https://www.linkedin.com/in/njriasanovsky/) (2026).
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in Computer Science and minor in Music. I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** for Bachelor Thesis and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant (now renamed to [Rocq](https://rocq-prover.org/))*** . Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** under control problems as my first academic research and achieved my first publication.
 
@@ -22,7 +22,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**, [**LinkedIn**](https://www.linkedin
 
 # **Research**
 
-My current focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. Whether for career or just for hobbies, I'm always open to general research collaboration.
+My current focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. 
 
 See the detailed open problems including other areas I'm investigating or interested below:
 
@@ -32,7 +32,9 @@ See the detailed open problems including other areas I'm investigating or intere
 
 - **[CPU Compiler]** **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling. 
 
-- **[Intern@Amazon] Verification for Realistic Tensor Compilers** 
+- **[Intern@Amazon] Verification for Realistic AI Accelerator Compilers** 
+
+- **[Intern@Meta] Performance-aware numerical correctness for GPU kernel compiler**
 
 - **Q:** The compiler correctness is defined as *"for any program, if the compiler <u>accept</u> it, the generated program always behaves the same (when source program behaves normal) or better (when source program will trigger error)"*. However, how much can we reason about when the compiler *<u>reject</u>* a program? Such query is non-trivial, because a compilation pass that reject all program can be proved correct under CompCert' s correctness setting.
 
@@ -50,7 +52,6 @@ See the detailed open problems including other areas I'm investigating or intere
 
 **Parallelism & Concurrency** (secondary, keeping track of latest progress)
 
-- **GPU Programming, CUDA, OpenMP, MLIR, etc.**
 - **Data-race problems**
 - **Program Verification with Concurrency**: concurrent separation logic, etc.
 
@@ -68,13 +69,15 @@ See the detailed open problems including other areas I'm investigating or intere
 
 # **Publications**
 
-<u>Program / Compiler Correctness:</u>
+<u>Compiler Correctness:</u>
 
-- **Ziteng Yang**, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar. 2026 Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification 
+- Something incoming about compiler verification on AI accelerator 2026!
 
-  (under review)
+- Something incoming about compiler verification on GPU 2027 spring!
 
-- Something incoming about GPU compiler verification!
+- **Ziteng Yang**, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar. 2026. Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification .
+
+  (under review) [[arXiv](https://arxiv.org/abs/2609.11356)]
 
 - **Ziteng Yang**, Jun Shirako, and Vivek Sarkar. 2024. Fully Verified Instruction Scheduling. Proc. ACM Program. Lang. 8, **OOPSLA**2, Article 299 (October 2024), 26 pages.
 
