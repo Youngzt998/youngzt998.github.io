@@ -71,11 +71,11 @@ See the detailed open problems including other areas I'm investigating or intere
 
 <u>Compiler Correctness:</u>
 
+- Something incoming about compiler verification on GPU 2026 winter or 2027!
+
 - Something incoming about compiler verification on AI accelerator 2026!
 
-- Something incoming about compiler verification on GPU 2027 spring!
-
-- **Ziteng Yang**, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar. 2026. Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification .
+- **Ziteng Yang**, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar. 2026. Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification 
 
   (under review) [[arXiv](https://arxiv.org/abs/2609.11356)]
 
@@ -114,7 +114,7 @@ See the detailed open problems including other areas I'm investigating or intere
 
   - also badminton, confident to say pretty good
 
-- I can play League of Legend (a MOBA E-sport),  but only ranking Platinum+   : ( Galio main! : ) 
+- I can play the MOBA E-sport *League of Legend*,  but only ranking Emerald   : ( Galio main! : ) 
 
 - Part-time INTP
 
